@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assignment 1 - Animations</title>
+        <link rel="stylesheet" href="css/desktop.css">
+        <link rel="stylesheet" href="css/mobile.css" media="(max-width: 860px)">
+    </head>
+
+    <body> 
+        <canvas id="matrix-rain-effect"></canvas>
+        <header>
+            <h1 class="header header-animation">Peh Yan Bin's Webpage</h1>
+        </header>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="hometown.html">Hometown</a></li>
+                <li><a href="achievement.html">Achievements</a></li>
+                <li><a href="casual.html">Casual</a></li>
+                <li><a href="academic.html">Academic</a></li>
+                <li><a href="animations.html">Animations</a></li>
+            </ul>
+        </nav>
+
+        <main class="container2">
+            <article class="card2">
+                <h1 class="title_animation">Implemented Animations</h1>
+                
+
+                <h2 style="margin-top: 20px;">Matrix Rain Effect</h2>
+                <p class="p_main2">
+                    A JavaScript-powered background animation that simulates the digital rain effect from "The Matrix".
+                    <br><br>
+                    This animation is active on all pages, including <a href="index.html">About</a>, <a href="hometown.html">Hometown</a>, <a href="achievement.html">Achievements</a>, <a href="casual.html">Casual</a>, and <a href="academic.html">Academic</a>.
+                </p>
+
+                <h2 style="margin-top: 20px;">Title Text Animations</h2>
+                <p class="p_main2">
+                    The <code>bounceRotate</code> animation is applied to page and section titles to make them pop. It starts small and invisible, quickly scales up past its final size, and then settles into place.
+                    <br><br>
+                    You can see this on the main title of the <a href="index.html">About Me</a> page.</a>.
+                </p>
+
+                <h2 style="margin-top: 20px;">Page Load Animations</h2>
+                <p class="p_main2">
+                    Several animations are used to make the page content load in a visually appealing way:
+                    <ul>
+                        <li><b>Header & Nav Bar:</b> The <code>slideDown</code> animation makes the header and navigation bar slide down from the top of the screen when the page loads.</li>
+                        <li><b>Content Containers:</b> The main content cards use <code>fadeIn2</code> to fade in and slide up from below, drawing attention to the content.</li>
+                        <li><b>Navigation Links:</b> The links in the navigation bar use <code>fadeIn</code> to appear with a slight delay and upward motion.</li>
+                    </ul>
+                </p>
+
+                <h2 style="margin-top: 20px;">Hover Effects and Transitions</h2>
+                <p class="p_main2">
+                    Smooth CSS transitions are used to provide feedback when you interact with elements:
+                    <ul>
+                        <li><b>Navigation Links:</b> Hovering over a link in the <a href="index.html">navigation bar</a> causes it to scale up and change background color.</li>
+                        <li><b>Profile Picture:</b> On the <a href="index.html">About Me</a> page, the profile picture has a continuous <code>pulseProfile</code> animation. Hovering over it makes it grow larger, rotate slightly, and glow.</li>
+                        <li><b>Cards:</b> The info cards on the <a href="index.html">About Me</a> page change background color on hover for a responsive feel.</li>
+                        <li><b>Header:</b> Hovering over the header in the <a href="index.html">webpages</a> causes the text to pop up with a shadow effect like a 3d model. It has a delay of 0.7 seconds so to ensure that the animation only loads when the page is fully loaded. This effect is also applied to all the other webpages as well. </li>
+                    </ul>
+                </p>
+
+            </article>    
+        </main>
+
+        <script src="js/matrixscript.js"></script>
+    </body>
+
+    <footer>
+        <p>Copyright &copy; 2025 Peh Yan Bin</p>
+    </footer>
+</html>
